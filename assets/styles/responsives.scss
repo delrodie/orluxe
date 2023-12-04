@@ -1,0 +1,211 @@
+@media screen and (max-width: 480px) {
+  #topHead{
+    .topHead{
+      .coordonnees{
+        display: none;
+      }
+
+      .mobile-menu{
+        button{
+          &.btn-menu{
+            span{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  #menu{
+    display: none;
+  }
+
+  #zoneCarousel{
+    .slides{
+      display: none;
+    }
+
+    .form-floating{
+      margin-top: 15px;
+    }
+  }
+
+  #zoneOffres{
+    .card{
+      img{
+        min-height: 300px;
+        max-height: 300px;
+        width: auto;
+      }
+    }
+  }
+
+  footer{
+    .rubrique{
+      h5{
+        margin-top: 20px;
+      }
+    }
+    .copyright{
+      .reference{
+        font-size: .8rem;
+        text-align: center;
+      }
+      .social-icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #topHead{
+    .topHead{
+      .coordonnees{
+        display: none;
+      }
+    }
+  }
+
+  #menu{
+    display: none;
+  }
+
+  #zoneCarousel{
+    .slides{
+      display: none;
+    }
+
+    .form-floating{
+      margin-top: 15px;
+    }
+  }
+
+  #zoneOffres{
+    .card{
+      img{
+        min-height: 300px;
+        max-height: 300px;
+        width: auto;
+      }
+    }
+  }
+
+  footer{
+    .rubrique{
+      h5{
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  #topHead{
+    .coordonnees{
+      display: none;
+    }
+  }
+
+  #menu{
+    display: none;
+  }
+
+  #zoneCarousel{
+    .slides{
+      display: none;
+    }
+
+    .form-floating{
+      margin-top: 15px;
+    }
+  }
+
+  #zoneOffres{
+    .card{
+      img{
+        min-height: 250px;
+        max-height: 250px;
+        width: auto;
+      }
+    }
+  }
+
+  footer{
+    .rubrique{
+      h5{
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+  #topHead{
+    .mobile-menu{
+      display: none;
+    }
+  }
+
+  #zoneOffres{
+    .card{
+      img{
+        min-height: 200px;
+        max-height: 200px;
+        width: auto;
+      }
+    }
+  }
+
+  #menu{
+    .menu{
+      img{
+        display: none;
+      }
+
+      .btn-menu{
+        span{
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+  #topHead{
+    .mobile-menu{
+      display: none;
+    }
+  }
+
+  #zoneOffres{
+    .card{
+      img{
+        min-height: 200px;
+        max-height: 200px;
+        width: auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  #topHead{
+    .mobile-menu{
+      display: none;
+    }
+  }
+
+  #zoneOffres{
+    .card{
+      img{
+        min-height: 200px;
+        max-height: 200px;
+        width: auto;
+      }
+    }
+  }
+}

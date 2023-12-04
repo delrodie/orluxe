@@ -1,0 +1,40 @@
+@import 'variables';
+
+a{
+  text-decoration: none;
+}
+
+.card{
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+
+  &:hover{
+    img{
+      transform: scale(1.1);
+    }
+
+    .card-title{
+      color: $couleur-rouge-foncee
+    }
+  }
+}
+
+.offres-plus{
+  margin-top: 50px;
+  font-style: italic;
+  font-weight: 500;
+
+  a{
+    color: $couleur-rouge-foncee;
+
+    &::before{
+      content: '...';
+      font-size: 1.5rem;
+    }
+
+    &:hover{
+      color: $couleur-bleue;
+    }
+  }
+
+}

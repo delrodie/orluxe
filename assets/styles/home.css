@@ -1,0 +1,72 @@
+h5 {
+  color: #161773;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h6 {
+  color: #161773;
+  font-weight: 600;
+  margin-top: 15px; }
+  h6 span {
+    color: white;
+    font-weight: 800;
+    background-color: #711110;
+    padding: 0 10px; }
+
+#zoneCarousel {
+  background: linear-gradient(to bottom, #F4F5F5, #F1F4F6, #dfecf6) fixed;
+  margin: 0 0 100px 0;
+  padding: 0; }
+  #zoneCarousel h1 {
+    font-weight: 800;
+    line-height: 4.5rem;
+    letter-spacing: 3px; }
+    #zoneCarousel h1 span {
+      color: #C40606;
+      font-size: 3.5rem; }
+  #zoneCarousel h4 {
+    margin-bottom: 10px; }
+  #zoneCarousel .slides {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    overflow: hidden; }
+    #zoneCarousel .slides img {
+      float: left;
+      width: 250px;
+      cursor: pointer; }
+      #zoneCarousel .slides img.slide1 {
+        border-radius: 20px !important;
+        box-shadow: 15px 15px #161773;
+        height: 95%; }
+        #zoneCarousel .slides img.slide1:hover {
+          box-shadow: 7px 10px #711110;
+          transform: scale(1.1);
+          border-radius: 60px !important;
+          height: 80%;
+          margin-top: 20px; }
+      #zoneCarousel .slides img.slide2 {
+        border-radius: 20px !important;
+        margin-left: 50px;
+        height: 70%;
+        margin-top: 120px; }
+        #zoneCarousel .slides img.slide2:hover {
+          height: 100%;
+          transform: scale(1.1); }
+
+#zoneServices {
+  background: white;
+  padding: 100px 0; }
+  #zoneServices .services {
+    margin-top: 30px; }
+    #zoneServices .services p {
+      text-align: justify;
+      padding: 15px 10px; }
+
+#zoneOffres {
+  background: linear-gradient(to bottom, #F4F5F5, #F1F4F6, #dfecf6) fixed;
+  margin: 0 0 100px 0;
+  padding: 100px 0; }
+
+/*# sourceMappingURL=home.css.map */
