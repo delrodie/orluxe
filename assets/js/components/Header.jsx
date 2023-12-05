@@ -11,6 +11,7 @@ import DesktopMenu from "./DesktopMenu.jsx";
 import {Link} from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import {BsSearch} from "react-icons/bs";
 
 export default function () {
     useEffect(() => {
@@ -56,7 +57,7 @@ export default function () {
                             <Col xs={7} lg={9} xl={7} className="mobile-menu">
                                 <Link to="#">
                                     <Button className="btn-menu">
-                                        <PiSignInBold/> <span>CONNEXION</span>
+                                        <BsSearch /> <span>Recherche</span>
                                     </Button>
                                 </Link>
                                 <MobileMenu/>

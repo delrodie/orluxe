@@ -1,0 +1,98 @@
+@import "variables";
+
+.page{
+  margin-bottom: 150px;
+}
+
+.titre-page{
+  font-size: .9rem;
+  color: $couleur-rouge-foncee;
+  cursor: pointer;
+
+  svg{
+    color: $couleur-bleue;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  &:hover{
+    color: $couleur-bleue;
+
+    svg{
+      color: $couleur-rouge-foncee;
+    }
+  }
+}
+
+.slogan{
+  margin-bottom: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+
+  &:hover{
+    color: $couleur-rouge-foncee
+  }
+}
+
+img{
+  &.illustration{
+    border-radius: 10px;
+  }
+}
+
+ul{
+  list-style: none;
+
+  svg{
+    margin-right: 10px;
+    font-weight: bold;
+    color: $couleur-rouge;
+  }
+
+  li{
+    padding-bottom: 7px;
+    cursor: pointer;
+
+    &:first-child{
+      margin-top: 25px;
+    }
+
+    &:hover{
+      color: $couleur-bleue;
+      svg{
+        transform: scale(1.3);
+        font-weight: 900;
+      }
+    }
+  }
+}
+
+.rdv{
+  margin-top: 50px;
+
+  button{
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    border: solid 1px $couleur-bleue;
+    font-weight: bold;
+    color: $couleur-bleue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    svg{
+      margin-right: 10px;
+    }
+
+    &:hover{
+      background: $couleur-bleue;
+      color: white;
+
+      svg{
+        color: white;
+      }
+    }
+  }
+}

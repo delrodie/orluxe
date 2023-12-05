@@ -3,6 +3,7 @@ import {Button, Container, Nav, Navbar, NavDropdown, NavLink} from "react-bootst
 import {PiSignInBold} from "react-icons/pi";
 import logo from '../../images/logo-bleu.png'
 import {Link} from "react-router-dom";
+import {BsSearch} from "react-icons/bs";
 
 export default function () {
     const [isTop, setIsTop] = useState(true);
@@ -76,7 +77,7 @@ export default function () {
                                 <Nav>
                                     <NavLink href="#">
                                         <Button className="btn-menu">
-                                            <PiSignInBold/> <span>CONNEXION</span>
+                                            <BsSearch /> <span>RECHERCHE</span>
                                         </Button>
                                     </NavLink>
                                 </Nav>

@@ -1,12 +1,15 @@
 import React, {useEffect} from 'react';
 import {Helmet} from "react-helmet";
 import logo from '../../images/logo.png'
+import logo_bleu from '../../images/logo-bleu.png'
 
 export default function (props) {
         const {title, description, keywords} = props;
     return (
         <Helmet>
                 <title>{title}</title>
+
+                <link rel="icon" href={logo_bleu} />
 
             <meta name="keywords" content={keywords} />
             <meta name="description" content={description} />

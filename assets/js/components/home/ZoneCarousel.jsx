@@ -13,7 +13,7 @@ export default function () {
                     <Row className="row-cols-sm-1 row-cols-lg-2">
                         <Col className="col-sm-12 search" data-aos="fade-left" data-aos-duration={2000} data-aos-easing="ease-in-out">
                             <h1><span>O</span>RLUXE <span>E</span>state</h1>
-                            <h4>Construire l'avenir ensemble</h4>
+                            <h4>Construire l'avenir ensemble (slogan)</h4>
                             <p>
 
                                 Bienvenue chez <strong>ORLUXE ESTATE</strong> à Abidjan, Côte d'Ivoire, où l'excellence rencontre l'innovation dans le domaine de l'aménagement,
