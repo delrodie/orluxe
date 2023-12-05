@@ -25,7 +25,7 @@ const offresData = [
 
 // Composant de carte réutilisable
 const OffreCard = ({ offre }) => (
-    <Link to="/test">
+    <Link to="/offre">
         <Col className="h-100" data-aos="fade-up" data-aos-duration={2000} data-aos-easing="ease-in-out">
             <Card className="h-100">
                 <Card.Img variant="top" src={offre.image} />

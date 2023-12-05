@@ -21,6 +21,34 @@ const router = createBrowserRouter([
                 element: <Presentation/>
             },
             {
+                path: '/services/amenagement-de-terrain',
+                element: <Presentation/>
+            },
+            {
+                path: '/services/conception-et-constructtion-de-batiment',
+                element: <Presentation/>
+            },
+            {
+                path: '/services/promotion-immobiliere',
+                element: <Presentation/>
+            },
+            {
+                path: '/nos-offres/abidjan',
+                element: <Presentation/>
+            },
+            {
+                path: '/nos-offres/songon',
+                element: <Presentation/>
+            },
+            {
+                path: '/nos-offres/yamoussoukro',
+                element: <Presentation/>
+            },
+            {
+                path: '/offre',
+                element: <Presentation/>
+            },
+            {
                 path: '/contact',
                 element: <Contact/>
             }
