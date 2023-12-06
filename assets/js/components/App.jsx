@@ -6,6 +6,7 @@ import Home from "../pages/Home";
 import Presentation from "../pages/Presentation";
 import AOS from "aos";
 import Contact from "../pages/Contact";
+import Recherche from "../pages/Recherche";
 
 const router = createBrowserRouter([
     {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact/>
+            },
+            {
+                path: '/recherche',
+                element: <Recherche/>
             }
         ]
     },

@@ -1,0 +1,96 @@
+@import "variables";
+
+.contact{
+  margin: 50px auto;
+  transition: 0.3s ease-in-out;
+
+  .card{
+    box-shadow: 1px 10px 10px #d3d2d2;
+
+    &:hover{
+      box-shadow: 5px 10px 10px #000;
+    }
+  }
+  .icon{
+    text-align: center;
+    margin-bottom: 25px;
+
+    svg{
+      font-weight: 900;
+      color: $couleur-rouge-foncee;
+      font-size: 1.8rem;
+    }
+  }
+
+  h4{
+    font-size: 1.3rem;
+    color: $couleur-bleue;
+  }
+
+  .phone{
+    margin: 50px auto 10px;
+
+    a{
+      padding: 7px 15px;
+      border: solid 1px $bg-degrade-bas;
+      border-radius: 7px;
+      text-decoration: none;
+      //letter-spacing: 2px;
+      color: inherit;
+      font-weight: 400;
+
+      svg{
+        color: $couleur-bleue;
+      }
+
+      &:hover{
+        background: $couleur-bleue;
+        color: white;
+
+        svg{
+          color: $couleur-rouge
+        }
+      }
+    }
+  }
+
+  .rs-icone{
+    margin: 50px auto 10px;
+
+    a{
+      text-decoration: none;
+      color: inherit;
+      font-weight: 400;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      svg{
+        color: $couleur-bleue;
+        font-size: 2.5rem;
+      }
+
+      &:hover{
+        svg{
+          color: $couleur-rouge-foncee;
+        }
+      }
+    }
+  }
+}
+
+.formulaire{
+  margin: 100px auto 200px;
+
+  button{
+    padding: 10px;
+    border: solid 1px $couleur-bleue;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, $bg-degrade-haut, $bg-degrade-milieu, $bg-degrade-bas);
+
+    &:hover{
+      background: linear-gradient(to top, $bg-degrade-haut, $bg-degrade-milieu, $bg-degrade-bas);
+      border: solid 1px $couleur-rouge;
+      color: $couleur-bleue;
+    }
+  }
+}

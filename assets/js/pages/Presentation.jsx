@@ -22,7 +22,7 @@ export default function () {
             <main>
                 <Container>
                     <Breadcrumb>
-                        <Breadcrumb.Item href="#"><IoHome /></Breadcrumb.Item>
+                        <Breadcrumb.Item href="/"><IoHome /></Breadcrumb.Item>
                         {/*<Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">*/}
                         {/*    Library*/}
                         {/*</Breadcrumb.Item>*/}

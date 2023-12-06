@@ -75,11 +75,11 @@ export default function () {
                                     <Link to="/contact" className="nav-link">Contact</Link>
                                 </Nav>
                                 <Nav>
-                                    <NavLink href="#">
+                                    <Link to="/recherche">
                                         <Button className="btn-menu">
                                             <BsSearch /> <span>RECHERCHE</span>
                                         </Button>
-                                    </NavLink>
+                                    </Link>
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>

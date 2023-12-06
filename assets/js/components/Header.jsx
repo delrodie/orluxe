@@ -55,7 +55,7 @@ export default function () {
                                 </Row>
                             </Col>
                             <Col xs={7} lg={9} xl={7} className="mobile-menu">
-                                <Link to="#">
+                                <Link to="/recherche">
                                     <Button className="btn-menu">
                                         <BsSearch /> <span>Recherche</span>
                                     </Button>

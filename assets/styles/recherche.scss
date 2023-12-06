@@ -1,0 +1,22 @@
+@import "variables";
+
+button{
+  border: solid 1px $couleur-bleue;
+  border-radius: 5px;
+
+  &.btn-recherche{
+    &:hover{
+      background: $couleur-bleue;
+      color: white;
+      border: dotted 1px $couleur-rouge;
+
+      svg{
+        color: white;
+      }
+    }
+  }
+}
+
+.recherche{
+  margin: 100px auto;
+}

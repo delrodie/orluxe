@@ -21,7 +21,7 @@ export default function () {
                         </Col>
                     </Row>
                     <Row className="row-cols-1 row-cols-sm-1 row-cols-md-3 services">
-                        <Col className="text-center">
+                        <Col className="text-center" data-aos="fade-right" data-aos-duration={2000} data-aos-easing="ease-in-out">
                             <img src={service1} className="img-fluid" alt="Amenagement de terrains"/>
                             <h6><span>1.</span> Aménagement de terrains</h6>
                             <p>
@@ -29,7 +29,7 @@ export default function () {
                                 Que ce soit pour des projets résidentiels, commerciaux ou industriels, nous sommes là pour donner vie à vos idées.
                             </p>
                         </Col>
-                        <Col className="text-center">
+                        <Col className="text-center" data-aos="fade-up" data-aos-duration={2000} data-aos-easing="ease-in-out">
                             <img src={service2} alt="" className="img-fluid"/>
                             <h6><span>2.</span> Conception et construction de bâtiments</h6>
                             <p>
@@ -37,7 +37,7 @@ export default function () {
                                 Nous mettons l'accent sur l'efficacité, la durabilité et le design novateur.
                             </p>
                         </Col>
-                        <Col className="text-center">
+                        <Col className="text-center" data-aos="fade-left" data-aos-duration={2000} data-aos-easing="ease-in-out">
                             <img src={service3} alt="" className="img-fluid"/>
                             <h6><span>3.</span> Promotion immobilière</h6>
                             <p>

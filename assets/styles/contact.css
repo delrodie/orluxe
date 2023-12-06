@@ -1,0 +1,60 @@
+.contact {
+  margin: 50px auto;
+  transition: 0.3s ease-in-out; }
+  .contact .card {
+    box-shadow: 1px 10px 10px #d3d2d2; }
+    .contact .card:hover {
+      box-shadow: 5px 10px 10px #000; }
+  .contact .icon {
+    text-align: center;
+    margin-bottom: 25px; }
+    .contact .icon svg {
+      font-weight: 900;
+      color: #711110;
+      font-size: 1.8rem; }
+  .contact h4 {
+    font-size: 1.3rem;
+    color: #161773; }
+  .contact .phone {
+    margin: 50px auto 10px; }
+    .contact .phone a {
+      padding: 7px 15px;
+      border: solid 1px #dfecf6;
+      border-radius: 7px;
+      text-decoration: none;
+      color: inherit;
+      font-weight: 400; }
+      .contact .phone a svg {
+        color: #161773; }
+      .contact .phone a:hover {
+        background: #161773;
+        color: white; }
+        .contact .phone a:hover svg {
+          color: #C40606; }
+  .contact .rs-icone {
+    margin: 50px auto 10px; }
+    .contact .rs-icone a {
+      text-decoration: none;
+      color: inherit;
+      font-weight: 400;
+      padding-left: 10px;
+      padding-right: 10px; }
+      .contact .rs-icone a svg {
+        color: #161773;
+        font-size: 2.5rem; }
+      .contact .rs-icone a:hover svg {
+        color: #711110; }
+
+.formulaire {
+  margin: 100px auto 200px; }
+  .formulaire button {
+    padding: 10px;
+    border: solid 1px #161773;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #F4F5F5, #F1F4F6, #dfecf6); }
+    .formulaire button:hover {
+      background: linear-gradient(to top, #F4F5F5, #F1F4F6, #dfecf6);
+      border: solid 1px #C40606;
+      color: #161773; }
+
+/*# sourceMappingURL=contact.css.map */

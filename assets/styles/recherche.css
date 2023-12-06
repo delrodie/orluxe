@@ -1,0 +1,14 @@
+button {
+  border: solid 1px #161773;
+  border-radius: 5px; }
+  button.btn-recherche:hover {
+    background: #161773;
+    color: white;
+    border: dotted 1px #C40606; }
+    button.btn-recherche:hover svg {
+      color: white; }
+
+.recherche {
+  margin: 100px auto; }
+
+/*# sourceMappingURL=recherche.css.map */
